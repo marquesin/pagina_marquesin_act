@@ -1,0 +1,49 @@
+.containerConoceme{
+    display: flex;
+    width: 100%;
+    background: #E7AB92;
+    height: auto;
+    margin-top: 5%;
+}
+.columnaIzquierdaConoceme{
+    width: 50%;
+    margin-top: 5%;
+}
+.chicaSentada{
+    margin-top: -25%;
+}
+.columnaDerechaConoceme{
+    width: 50%;
+    margin-top: 4%;
+}
+.columnaDerechaConoceme div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.columnaDerechaConoceme div h2{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 120%;
+    color: #333231;
+    margin-right: 4%;
+}
+.columnaDerechaConoceme div p{
+    max-width: 46%;
+    background: #39C8B4;
+    border-radius: 20px;
+    padding:0 12% 0 12%;
+    height: 400px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 120%;
+    color: #333231;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

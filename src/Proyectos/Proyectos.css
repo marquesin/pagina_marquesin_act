@@ -1,0 +1,43 @@
+#proyectos{
+    background-color: #39C8B4;
+    margin-top: 5%;
+}
+.containerTituloProyectos{
+    display: flex;
+    width: 75%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* margin-left: 25%; */
+    padding: 2% 0 0 25%;
+}
+.containerPlantillas{
+    display: flex;
+    width: 92%;
+    justify-content: space-around;
+    margin: 4% 2% 4% 4%;
+}
+.containerPlantillas div{
+    display: flex;
+    width: 92%;
+    justify-content: space-around;
+    margin: 4% 2% 4% 4%;
+}
+.containerTituloProyectos h1{
+    color: #FFFFFF;
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 47px;
+line-height: 120%;
+margin: 0 0 0 4%;
+}
+.containerPlantillas img :hover{
+    fill: black;
+}
+#buttonD{
+    background-color: transparent;
+    border: none;
+}
+#buttonD:hover{
+    cursor: pointer;
+}

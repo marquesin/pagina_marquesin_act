@@ -1,0 +1,116 @@
+
+
+#home{
+    /* background-color: #39C8B4; */
+    background: radial-gradient(96.67% 591.77% at 97.99% 1.72%, #34AA99 0%, #2A9C8C 19.84%, rgba(56, 190, 171, 0.53041) 33.85%, rgba(56, 194, 175, 0.489015) 71.06%, rgba(104, 213, 197, 0.328125) 82.35%, rgba(33, 208, 184, 0.14238) 92.34%, rgba(57, 200, 180, 0) 100%, rgba(57, 200, 180, 0.0612818) 100%);
+    height: auto;
+    padding-bottom: 2%;
+}
+.containerSol{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    margin-top: -5%;
+}
+.containerBienvenida{
+    width: 85%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15%;
+    margin-top: -5%;
+
+}
+.containerBienvenida h1{
+    background: rgba(161, 160, 159, 1);
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 61px;
+    line-height: 120%;
+    width: 30%;
+    padding: 2%;
+    color: #FEFFFF;
+    -webkit-text-stroke: 0.5px #333231;
+    margin: 0;
+    box-shadow: 8px 11px 2px rgba(0, 0, 0, 0.2)
+
+}
+.containerBienvenida h1 span{
+color: rgba(233, 147, 110, 1);
+}
+.containerPictures{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: -10%;
+}
+.containerPictures div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 40%;
+}
+.chicaSaludando{
+    width: 550px;
+    height: auto;
+}
+.plantas{
+    width: 100px;
+}
+#plantaAlta{
+    margin-bottom: -35%;
+}
+.containerButtonFixed{
+    position: fixed;
+    right: 4%;
+    top:80%
+}
+.buttonUp{
+    background: rgba(246, 193, 169, 1);
+    width: 90px;
+    height: 85px;
+    font-size: 55px;
+    border-radius: 100%;
+    border: none;
+    color: #615F5E;
+    margin: auto;
+    font-weight: bold;
+    z-index: 2;
+    border: 1px solid #FFFDFC;
+}
+.buttonUp:hover{
+    background: #E9936E;
+    width: 95px;
+    cursor: pointer;
+    border: 1px solid #FFFDFC;
+
+}
+.buttonUp:active{
+    cursor:progress;
+}
+.buttonCV{
+    background: rgba(72, 233, 210, 1);
+    border: 1px solid #FFFDFC;
+    border-radius: 100px;
+    width: 116px;
+    height: 116px;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 120%;
+    /* color: #615F5E; */
+    color: #FFFDFC;
+
+    z-index: 1;
+    margin-left: -5%;
+}
+.buttonCV:hover{
+    cursor: pointer;
+    background: #39C8B4;
+    color: #FFFDFC;
+
+}
+.buttonCV:active{
+    cursor:progress;
+}
